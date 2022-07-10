@@ -1,0 +1,68 @@
+* {
+  font-family: Poppins, Inter;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: hidden;
+}
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  padding: 20px 30px;
+  color: #fff;
+}
+.logo {
+  display: flex;
+  width: 30%;
+}
+.logo h1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.containerf {
+  background-image: url("Images/image\ 1.png");
+  background-position: 100% 50%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.button{
+    color: orange;
+    margin-bottom: 2%;
+}
+.containerf image1 {
+  background-position: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image2 {
+  background-position: 50%;
+  position: top left;
+  align-self: flex-end;
+  float: right;
+}
+.container1 {
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+.container2{
+    text-align: center;
+}
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: none;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: left;
+}
