@@ -1,5 +1,8 @@
-* {
-  font-family: Poppins, Inter;
+.navbar {
+  display: flex;
+}
+.leftbtns {
+  margin-left: auto;
 }
 .container {
   display: flex;
@@ -15,10 +18,6 @@ header {
   background: #111;
   padding: 20px 30px;
   color: #fff;
-}
-.logo {
-  display: flex;
-  width: 30%;
 }
 .logo h1 {
   display: flex;
