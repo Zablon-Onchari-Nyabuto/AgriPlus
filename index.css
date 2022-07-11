@@ -25,6 +25,21 @@ header {
   align-items: center;
   width: 100%;
 }
+.leftbtns{
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+.leftbtns ul{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.leftbtns ul li{
+display: flex;
+align-items: center;
+}
 .containerf{
   background-image: url("Images/image\ 1.png");
   background-position: 100% 50%;
