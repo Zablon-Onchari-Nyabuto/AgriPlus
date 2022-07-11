@@ -77,6 +77,14 @@ align-items: center;
 .container2{
     text-align: center;
 }
+.container3 {
+  display: flex;
+  width: 100%;
+  padding: 100px 50px;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
 .text-block {
   position: absolute;
   bottom: 20px;
