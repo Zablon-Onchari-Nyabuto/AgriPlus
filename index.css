@@ -1,5 +1,8 @@
-* {
-  font-family: Poppins, Inter;
+.navbar {
+  display: flex;
+}
+.actions {
+  margin-left: auto;
 }
 .container {
   display: flex;
@@ -19,22 +22,41 @@ header {
 .logo {
   display: flex;
   width: 30%;
+  height: 10%;
 }
 .logo h1 {
   display: flex;
   align-items: center;
   width: 100%;
 }
-.containerf {
-  background-image: url("Images/image\ 1.png");
-  background-position: 100% 50%;
-  position: relative;
-  top: 0;
-  left: 0;
+.leftbtns{
+  display: flex;
+  align-items: center;
+  width: 30%;
 }
-.button{
-    color: orange;
-    margin-bottom: 2%;
+.leftbtns ul{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.leftbtns ul li{
+display: flex;
+align-items: center;
+}
+.containerf {
+  display: flex;
+  background: #fff;
+  padding: 80px 0px;
+  color: black;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.button {
+  color: orange;
+  margin-bottom: 2%;
 }
 .containerf image1 {
   background-position: 100%;
@@ -49,12 +71,50 @@ header {
   float: right;
 }
 .container1 {
-    display: flex;
-    flex-direction: row;
-    float: right;
+  display: flex;
+  flex-direction: row;
+  float: right;
 }
-.container2{
-    text-align: center;
+.container2 {
+  text-align: center;
+}
+.container3 {
+  display: flex;
+  width: 100%;
+  padding: 100px 50px;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  margin-top: 50px;
+  width: 100%;
+  grid-gap: 30px;
+}
+.product1 {
+  display: flex;
+  flex-direction: column;
+}
+.container4 {
+  display: flex;
+  width: 100%;
+  padding: 100px 50px;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.reviews {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  margin-top: 50px;
+  width: 100%;
+  grid-gap: 30px;
+}
+.reviews1 {
+  display: flex;
+  flex-direction: column;
 }
 .text-block {
   position: absolute;
@@ -65,4 +125,12 @@ header {
   padding-left: 20px;
   padding-right: 20px;
   align-items: left;
+}
+.footer {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+}
+.activities {
+  align-items: right;
 }
