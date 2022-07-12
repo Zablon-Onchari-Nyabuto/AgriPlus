@@ -133,8 +133,13 @@ header {
   background-color: black;
   padding: 20px;
   color: #fff;
+}
+.top{
   text-align: center;
 }
-.footerbottom {
-  align-items: left;
+.activities{
+  align-items: flex-end;
+}
+.footerbottom{
+  text-align: left;
 }
