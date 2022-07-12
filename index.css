@@ -29,30 +29,22 @@ header {
   align-items: center;
   width: 100%;
 }
-.leftbtns{
+.leftbtns {
   display: flex;
   align-items: center;
   width: 30%;
 }
-.leftbtns ul{
+.leftbtns ul {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
-.leftbtns ul li{
-display: flex;
-align-items: center;
-}
-.containerf {
+.leftbtns ul li {
   display: flex;
-  background: #fff;
-  padding: 80px 0px;
-  color: black;
-  justify-content: center;
-  align-items: flex-start;
-  width: 100%;
+  align-items: center;
 }
+
 .containerftext {
   background-image: url(Images/image\ 1.png);
   background-position: 50% 50%;
@@ -63,29 +55,31 @@ align-items: center;
   left: 0;
   margin-bottom: 10%;
 }
-.button{
-    color: orange;
-    margin-bottom: 2%;
+.button {
+  color: orange;
+  margin-bottom: 2%;
 }
-.containerf image1 {
-  background-position: 100%;
-  position: relative;
-  top: 0;
-  left: 0;
-}
-.image2 {
-  background-position: 50%;
-  position: top left;
-  align-self: flex-end;
-  float: right;
+
+.container {
+  display: flex;
+  width: 100%;
+  padding: 100px 0px;
+  justify-content: center;
 }
 .container1 {
-    display: flex;
-    flex-direction: row;
-    float: right;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 0px 50px;
 }
-.container2{
-    text-align: center;
+.image3{
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.container2 {
+  text-align: center;
 }
 .container3 {
   display: flex;
@@ -106,6 +100,14 @@ align-items: center;
   display: flex;
   flex-direction: column;
 }
+.container4 {
+  display: flex;
+  width: 100%;
+  padding: 100px 50px;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
 .reviews {
   display: grid;
   grid-template-columns: repeat(3, 2fr);
@@ -116,14 +118,6 @@ align-items: center;
 .reviews1 {
   display: flex;
   flex-direction: column;
-}
-.container4 {
-  display: flex;
-  width: 100%;
-  padding: 100px 50px;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
 }
 .text-block {
   position: absolute;
@@ -137,6 +131,10 @@ align-items: center;
 }
 .footer {
   background-color: black;
+  padding: 20px;
   color: #fff;
   text-align: center;
+}
+.footerbottom {
+  align-items: left;
 }
