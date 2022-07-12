@@ -53,6 +53,16 @@ align-items: center;
   align-items: flex-start;
   width: 100%;
 }
+.containerftext {
+  background-image: url(Images/image\ 1.png);
+  background-position: 50% 50%;
+  position: relative;
+  top: 0;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  left: 0;
+  margin-bottom: 10%;
+}
 .button{
     color: orange;
     margin-bottom: 2%;
