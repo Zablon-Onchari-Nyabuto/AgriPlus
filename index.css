@@ -3,6 +3,19 @@
   width: 30%;
   height: 10%;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  float: left;
+  color: white;
+}
+a {
+  display: block;
+  padding: 8px;
+}
 h1, h2, h3{
   font-size:xx-large;
 }
@@ -120,7 +133,7 @@ header {
  /* end of first body with images over other images */
 
 .exist{
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   width: 100%;
   padding: 0px 50px;
@@ -147,7 +160,7 @@ header {
   padding: 100px 50px;
   justify-content: center;
   flex-direction: column;
-  width: 100%;
+  width: 70%;
 }
 .products {
   display: grid;
@@ -161,10 +174,18 @@ header {
   flex-direction: column;
 }
 .container4 {
-  display: flex;
+  display: inline-flex;
   width: 100%;
   padding: 100px 50px;
-  justify-content: center;
+  justify-content:flex-start;
+  flex-direction: row;
+  width: 70%;
+}
+.review1{
+  display: flex;
+  width: 100%;
+  padding: 10px 5px;
+  justify-content:space-between;
   flex-direction: column;
   width: 100%;
   display: flexbox;
@@ -179,13 +200,20 @@ header {
   padding-right: 20px;
   align-items: left;
 }
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
 .footer {
   background-color: black;
   padding: 20px;
   color: #fff;
 }
-.footer> top> buttonl{
-  color: #ED661F;
+.buttonl{
+  background-color: #ED661F;
+  color: white;
 }
 .top{
   text-align: center;
@@ -196,10 +224,13 @@ header {
 .footerbottom{
   text-align: left;
 }
+.app{
+width: 200px;
+}
 .bottomcontainer{
   display: flex;
-  flex-direction: column;
 }
 .bottomtext{
   text-align: center;
+  margin-top: 0%;
 }
