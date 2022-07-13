@@ -1,8 +1,11 @@
+
 .navbar {
   display: flex;
+  color: white;
 }
-.actions {
+.leftbtns {
   margin-left: auto;
+  color: #ED661F;
 }
 .container {
   display: flex;
@@ -29,51 +32,71 @@ header {
   align-items: center;
   width: 100%;
 }
-.leftbtns{
+.leftbtns {
   display: flex;
   align-items: center;
   width: 30%;
+  color: #fff;
 }
-.leftbtns ul{
+.leftbtns ul {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  color: #fff;
 }
-.leftbtns ul li{
-display: flex;
-align-items: center;
-}
-.containerf {
+.leftbtns ul li {
   display: flex;
-  background: #fff;
-  padding: 80px 0px;
-  color: black;
-  justify-content: center;
-  align-items: flex-start;
-  width: 100%;
+  align-items: center;
+  color: #fff;
+}
+.started{
+  color: #ED661F;
 }
 
-.button {
-  color: orange;
-  margin-bottom: 2%;
-}
-.containerf image1 {
-  background-position: 100%;
+/* end of header */
+
+.background{
+  background-image: url(Images/image/1.png);
+  background-position: 50% 50%;
   position: relative;
   top: 0;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   left: 0;
+  margin-bottom: 10%;
+  object-fit: fill;
 }
-.image2 {
-  background-position: 50%;
-  position: top left;
-  align-self: flex-end;
-  float: right;
+.background backgroundpic{
+  position: relative;
+}
+.backgroundpic button1{
+  color: orange;
+}
+.text{
+  top: -20%;
+}
+.image2{
+  display: flex;
+
+}
+.container {
+  display: flex;
+  width: 100%;
+  padding: 100px 0px;
+  justify-content: center;
 }
 .container1 {
   display: flex;
-  flex-direction: row;
-  float: right;
+  flex-direction: column;
+  width: 50%;
+  padding: 0px 50px;
+}
+.image3{
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
 }
 .container2 {
   text-align: center;
@@ -128,9 +151,22 @@ align-items: center;
 }
 .footer {
   background-color: black;
+  padding: 20px;
   color: #fff;
+}
+.top{
   text-align: center;
 }
-.activities {
-  align-items: right;
+.activities{
+  align-items: flex-end;
+}
+.footerbottom{
+  text-align: left;
+}
+.bottomcontainer{
+  display: flex;
+  flex-direction: row;
+}
+.bottomtext{
+  text-align: center;
 }

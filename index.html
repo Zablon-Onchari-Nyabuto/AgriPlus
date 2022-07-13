@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AgriPlus</title>
     <link rel="stylesheet" type="text/css" href="index.css" />
+    <script src="https://kit.fontawesome.com/d5e7f027f2.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
@@ -37,17 +38,20 @@
     <main>
       <!-- first body with images over other images -->
 
-      <div class="containerf">
-        <img class="image1" src="Images/image 1.png" alt="grass" width="100%" />
-        <h3>Buying and selling quality farm produce has never been easier.</h3>
-        <p>
-          AgriPlus is here to have you sorted, you can order farm produce from
-          the farmers, harvesters and producers directly.
-        </p>
-        <button>Explore More</button>
-      </div>
-      <div class="image2">
-        <img src="Images/image 2.png" alt="fruits" width="50%" />
+      <div class="background">
+        <div class="backgroundpic">
+          <img src="Images/image 1.png" alt="grass">
+        </div>
+        <div class="text">
+          <h3>Buying and selling quality <br> farm produce has never <br> been easier.</h3>
+          <p>
+          AgriPlus is here to have you sorted, you can order farm produce from <br>
+          the farmers, harvesters and producers <br> directly.
+          </p>
+          <button id="button1">
+          Explore More
+          </button>
+        </div>
       </div>
 
       <!-- why we exist -->
@@ -195,9 +199,21 @@
 
     <footer>
       <div class="footer">
+        <div class="top">
         <h2>We'd like to be in touch</h2>
         <p>Subscribe to our newsletter</p>
-        <div class=""></div>
+        <button>Enter your email address <button>Subscribe</button></button></div>
+        <hr>
+        <div class="bottomcontainer">
+        <div class="footerintro">
+          <h2>Agriplus</h2>
+          <p>Quality farm produce through <br> buying and selling</p>
+        </div>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <h2>Get the app</h2>
+        <div class="footerbottom">
         <table id="activities">
           <tr id="rows">
             <th>Company</th>
@@ -226,6 +242,11 @@
           </tr>
         </table>
       </div>
+        <div class="bottomtext">
+        <h3>All rights reserved, terms and conditions apply </h3>
+      </div>
+      </div>
+    </div>
     </footer>
   </body>
 </html>
